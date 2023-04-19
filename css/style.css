@@ -1,0 +1,15 @@
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .facet_sidebar {
+      display: none;
+    }
